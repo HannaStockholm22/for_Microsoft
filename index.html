@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>For_courses</title>
+</head>
+<body>
+    <h1>Hi!</h1>  
+    <p>NOW 
+        <span  id="forTime"> </span>
+    </p>
+    <p>Do you want to see the list  of our students?</p>
+    <button class="showBtn"  type="submit"  onclick="showAllList()"> Yes, show me  all students </button>
+    <p>If you want to see students of each group, select groups number  </p>
+    <select name="group" id="grSelect">
+        <option value="">Please choose a group</option>
+        <option value="1">1</option>
+        <option value="2">2</option>    
+    </select>  
+    <button class="showBtn" type="submit"  onclick="showGroupList()" >Show student of this group </button> 
+    <button class="showBtn" type="submit"  onclick="sortList()">SORT</button>
+    <p class="showArea" id ="area"></p>
+
+    <script src="js/dataType.js"></script>
+</body>
+</html>
