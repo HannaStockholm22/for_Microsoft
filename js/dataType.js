@@ -56,3 +56,15 @@ const showGroupList = () => {
     }
   });
 };
+
+
+//Korey's Changes 
+const students = [
+  { id: 1, name: "Olha", group: 1 },
+  { id: 2, name: "Vera", group: 2 },
+  { id: 3, name: "Nastya", group: 2 },
+  { id: 4, name: "Lera", group: 1 },
+  { id: 5, name: "Natasha", group: 2 },
+  { id: 6, name: "Tanya", group: 1 },
+];
+
